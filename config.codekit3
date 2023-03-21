@@ -364,6 +364,14 @@
       "oAP" : "\/partials\/_defs.html",
       "oF" : 0
     },
+    "\/partials\/_dialog.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_dialog.html",
+      "oF" : 0
+    },
     "\/partials\/_footer-logo.kit" : {
       "cB" : 0,
       "ft" : 2048,

@@ -7,22 +7,7 @@
 <small>Design by <a href="https://stuffandnonsense.co.uk" title="Website design North Wales, UK">Stuff &amp; Nonsense</a></small>
 </footer>
 
-<dialog id="dialog">
-
-<section>
-<h3>Email me</h3>
-<button id="dialog-close" class="btn" data-close>&#x2716</button>
-
-<form action="/index.html" method="POST" name="notify" data-netlify="true">
-<input type="hidden" name="subject" value="Cheeky Condiment stock notify" />
-<label for="notify-email" class="sr-only">Notify me when back in stock</label>
-<input type="email" id="notify-email" name="notify-email">
-<p class="alt--secondary">We promise not to spam you</p>
-<button type="submit" class="btn" id="showDialog">Notify me!</button>
-</form>
-</section>
-
-</dialog>
+<!-- @import "dialog" -->
 
 <script>
 let toggler = document.querySelectorAll("[data-toggle]");
