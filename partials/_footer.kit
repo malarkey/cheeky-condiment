@@ -7,38 +7,44 @@
 <small>Design by <a href="https://stuffandnonsense.co.uk" title="Website design North Wales, UK">Stuff &amp; Nonsense</a></small>
 </footer>
 
-<div class="cta"><a href="javascript:void(0)" class="btn" onclick="showDialog()" id="openDialogBox">Sold out <small>Email me when in stock</small></a></div>
-
-<dialog id="dialogBox" role="dialog" aria-modal="true">
+<dialog id="dialog">
 
 <section>
 <h3>Email me</h3>
-<button onclick="closeDialog()" id="closeDialogHeader" title="Close">&#x2716</button>
+<button id="dialog-close" class="btn" data-close>&#x2716</button>
 
 <form action="/index.html" method="POST" name="notify" data-netlify="true">
 <input type="hidden" name="subject" value="Cheeky Condiment stock notify" />
 <label for="notify-email" class="sr-only">Notify me when back in stock</label>
 <input type="email" id="notify-email" name="notify-email">
 <p class="alt--secondary">We promise not to spam you</p>
-<button type="submit" class="btn" id="confirmBtn">Notify me!</button>
+<button type="submit" class="btn" id="showDialog">Notify me!</button>
 </form>
 </section>
 
 </dialog>
 
 <script>
-let dialogBoxId=document.getElementById("dialogBox")
+let toggler = document.querySelectorAll("[data-toggle]");
+let closers = document.querySelectorAll("[data-close]");
 
-function showDialog(){
-dialogBoxId.addEventListener("keydown", (e) => {
-if (e.key === "Escape") {
-e.preventDefault();
-}
+if (toggler) {
+toggler.forEach(function (element) {
+let target = element.getAttribute("data-toggle");
+let targets = document.querySelectorAll(target);
+
+element.addEventListener("click", (event) => {
+targets.forEach(function (e) {
+e.showModal();
 });
-dialogBoxId.showModal();
-}
+});
+});
 
-function closeDialog(){
-dialogBoxId.close();
+closers.forEach(function (element) {
+element.addEventListener("click", (event) => {
+let dialog = element.closest("dialog");
+dialog.close();
+});
+});
 }
 </script>
