@@ -160,8 +160,8 @@
       "oA" : 0,
       "oAP" : "\/img\/card.webp",
       "oF" : 0,
-      "oIPL" : 0,
-      "opt" : 0,
+      "oIPL" : 1,
+      "opt" : 1,
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
