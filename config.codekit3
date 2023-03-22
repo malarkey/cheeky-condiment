@@ -56,6 +56,22 @@
       "oAP" : "\/browserconfig.xml",
       "oF" : 0
     },
+    "\/cart.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/cart.html",
+      "oF" : 0
+    },
+    "\/cart.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/cart.html",
+      "oF" : 0
+    },
     "\/css\/styles.css" : {
       "aP" : 0,
       "bl" : 0,
@@ -175,6 +191,16 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/img\/icon-delete.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/icon-delete.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
     "\/img\/icon.png" : {
       "ft" : 32768,
       "iS" : 26098,
@@ -234,6 +260,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/partials\/_banner-img.html",
+      "oF" : 0
+    },
+    "\/partials\/_banner-logo-small.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_banner-logo-small.html",
       "oF" : 0
     },
     "\/partials\/_charm-bbq.kit" : {
@@ -394,6 +428,30 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/partials\/_head.html",
+      "oF" : 0
+    },
+    "\/partials\/_icon-cart-apple.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_icon-cart-apple.html",
+      "oF" : 0
+    },
+    "\/partials\/_icon-cart-facebook.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_icon-cart-facebook.html",
+      "oF" : 0
+    },
+    "\/partials\/_icon-cart-google.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_icon-cart-google.html",
       "oF" : 0
     },
     "\/partials\/_img-bracelet.kit" : {

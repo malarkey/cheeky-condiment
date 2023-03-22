@@ -9,6 +9,8 @@
 
 <!-- @import "dialog" -->
 
+<script src="/js/instant.page/5.1.0" type="module" integrity="sha384-jnZyxPjiipYXnSU0ygqeac2q7CVYMbh84q0uHVRRxEtvFPiQYbXWUorga2aqZJ0z"></script>
+
 <script>
 let toggler = document.querySelectorAll("[data-toggle]");
 let closers = document.querySelectorAll("[data-close]");
@@ -32,4 +34,15 @@ dialog.close();
 });
 });
 }
+
+theme = localStorage.getItem("theme");
+if (theme) {
+document.querySelector('html').setAttribute('data-user-color-scheme', theme); }
+
+document.querySelectorAll(".alt-themes li input").forEach(theitem => {theitem.addEventListener("click", handleClick)});
+function handleClick() {
+var setting = this.getAttribute('id');
+console.log(setting);
+document.querySelector('html').setAttribute('data-user-color-scheme' , setting );
+localStorage.setItem("theme", setting); }
 </script>
