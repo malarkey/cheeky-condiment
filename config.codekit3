@@ -84,6 +84,22 @@
       "oF" : 2,
       "pg" : 0
     },
+    "\/error.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/error.html",
+      "oF" : 0
+    },
+    "\/error.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/error.html",
+      "oF" : 0
+    },
     "\/favicon-16x16.png" : {
       "ft" : 32768,
       "iS" : 874,
@@ -213,6 +229,26 @@
       "ou" : "lpckwebp-none",
       "q" : 90,
       "rq" : 75
+    },
+    "\/img\/img-fool-anim.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/img-fool-anim.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/img\/img-fool.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/img\/img-fool.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
     },
     "\/index.html" : {
       "cB" : 0,
@@ -462,6 +498,14 @@
       "oAP" : "\/partials\/_img-bracelet.html",
       "oF" : 0
     },
+    "\/partials\/_img-fool.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_img-fool.html",
+      "oF" : 0
+    },
     "\/partials\/_img-necklace.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -532,6 +576,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/partials\/_logo-tabasco.html",
+      "oF" : 0
+    },
+    "\/partials\/_nav.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_nav.html",
       "oF" : 0
     },
     "\/partials\/_styles.kit" : {
