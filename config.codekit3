@@ -197,16 +197,6 @@
       "ou" : "lpckwebp-default",
       "rq" : 75
     },
-    "\/img\/dialog.svg" : {
-      "ft" : 2097152,
-      "miP" : 0,
-      "oA" : 2,
-      "oAP" : "\/img\/dialog.svg",
-      "oF" : 0,
-      "opt" : 0,
-      "plM" : 52780316221407,
-      "prP" : 0
-    },
     "\/img\/icon-delete.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -599,6 +589,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/site.webmanifest",
+      "oF" : 0
+    },
+    "\/terms.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/terms.html",
       "oF" : 0
     },
     "\/terms.kit" : {
