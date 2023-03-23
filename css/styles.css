@@ -59,7 +59,8 @@
 --animate-delay: 1s;
 --animate-function: ease-in;
 --animate-repeat: 1;
---duration-promptly: .1s;
+--duration-promptly: .25s;
+--duration-quickly: .5;
 
 /* Scale */
 --scale-up: 1.1;
