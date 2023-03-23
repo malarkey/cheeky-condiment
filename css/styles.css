@@ -60,7 +60,7 @@
 --animate-function: ease-in;
 --animate-repeat: 1;
 --duration-promptly: .25s;
---duration-quickly: .5;
+--duration-quickly: .5s;
 
 /* Scale */
 --scale-up: 1.1;
