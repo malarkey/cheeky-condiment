@@ -581,24 +581,41 @@ stroke-width: var(--stroke-width-thick);
 stroke-linecap: var(--stroke-linecap); }
 
 .charm g {
-transition: all var(--duration-promptly) ease-in-out; }
+transition: all var(--duration-promptly) ease-in-out;
+cursor: pointer; }
 
-.charm:hover g {
+.charm g:hover {
 animation: shake 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both; }
 
-/* ANIMATIONS */
+.charm g:active {
+animation-name: bounce;
+transform-origin: center bottom; }
 
-@keyframes shake {
-10%, 90% { transform: translate3d(-1px, 0, 0); }
-20%, 80% { transform: translate3d(2px, 0, 0); }
-30%, 50%, 70% { transform: translate3d(-4px, 0, 0); }
-40%, 60% { transform: translate3d(4px, 0, 0); }
-}
+/* ANIMATIONS */
 
 @keyframes backInDown {
 0% { transform: translateY(-1200px) scale(.7); opacity: .7; }
 80% { transform: translateY(0px) scale(.7); opacity: .7; }
 100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes bounce {
+from,
+20%, 53%,
+to { animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+transform: translate3d(0, 0, 0); }
+
+40%, 43% { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+transform: translate3d(0, -30px, 0) scaleY(1.1); }
+
+70% { animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+transform: translate3d(0, -15px, 0) scaleY(1.05); }
+
+80% { transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+transform: translate3d(0, 0, 0) scaleY(0.95); }
+
+90% {
+transform: translate3d(0, -4px, 0) scaleY(1.02); }
 }
 
 @keyframes rubberBand {
@@ -609,6 +626,13 @@ from { transform: scale3d(1, 1, 1); }
 65% { transform: scale3d(0.95, 1.05, 1); }
 75% { transform: scale3d(1.05, 0.95, 1); }
 to { transform: scale3d(1, 1, 1); }
+}
+
+@keyframes shake {
+10%, 90% { transform: translate3d(-1px, 0, 0); }
+20%, 80% { transform: translate3d(2px, 0, 0); }
+30%, 50%, 70% { transform: translate3d(-5px, 0, 0); }
+40%, 60% { transform: translate3d(5px, 0, 0); }
 }
 
 /* FORMS */
