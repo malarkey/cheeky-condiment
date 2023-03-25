@@ -772,7 +772,7 @@ text-align: center; }
 display: block; }
 
 [role="banner"] .banner__img p {
-font-size: var(--font-size-medium);
+font-size: var(--font-size-large);
 line-height: 1.2;
 text-align: center; }
 
