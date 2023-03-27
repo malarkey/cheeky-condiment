@@ -950,7 +950,7 @@ padding: var(--spacing-small); }
 
 #cart__summary {
 margin-left: 50cqi;
-min-width: 50%; }
+width: 50cqi; }
 }
 
 /* error */
