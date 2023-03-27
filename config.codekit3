@@ -559,6 +559,14 @@
       "oAP" : "\/partials\/_logo-sarsons.html",
       "oF" : 0
     },
+    "\/partials\/_logo-shark-tank.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/partials\/_logo-shark-tank.html",
+      "oF" : 0
+    },
     "\/partials\/_logo-tabasco.kit" : {
       "cB" : 0,
       "ft" : 2048,
